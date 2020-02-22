@@ -1,0 +1,8 @@
+---
+- hosts: localhost
+  remote_user: polomoto
+  become: yes
+  tasks:
+  - name: Install Java 8
+    apt:
+      name: openjdk-8-jdk-headless
