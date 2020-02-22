@@ -1,1 +1,1 @@
-apt install openjdk-8-jdk -y
+apt install openjdk-8-jdk-headless -y
