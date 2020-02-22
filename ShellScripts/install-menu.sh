@@ -1,4 +1,4 @@
-while ["$1" != ""]; do
+while [ "$1" != "" ]; do
     case $1 in
         apache )            ./apache.sh;;
         mysql )             ./mysql.sh;;
