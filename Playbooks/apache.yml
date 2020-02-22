@@ -3,6 +3,6 @@
   remote_user: polomoto
   become: yes
   tasks:
-  - name: install apache
+  - name: Install Apache
     apt:
       name: apache2
